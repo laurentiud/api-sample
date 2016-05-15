@@ -24,9 +24,9 @@ public class PurchasesService {
     private static final Logger LOG = LogManager.getLogger(PurchasesService.class);
 
     private static final String ALL_USERS_PATTERN_PATH = "http://www.mockbin.org/bin/5a6e8a7b-0cfe-46f7-a733-c29ad0489e14";
-    private static final String PRODUCT_INFO_PATTERN_PATH = "http://74.50.59.155:6000/api/products/{0}";
-    private static final String RECENT_BY_USER_PATTERN_PATH = "http://74.50.59.155:6000/api/purchases/by_user/{0}?limit=5";
-    private static final String RECENT_BY_PRODUCT_PATTERN_PATH = "http://74.50.59.155:6000/api/purchases/by_product/{0}";
+    private static final String RECENT_BY_USER_PATTERN_PATH = "http://dummyEndpoint/api/purchases/by_user/{0}?limit=5";
+    private static final String PRODUCT_INFO_PATTERN_PATH = "http://dummyEndpoint/api/products/{0}";
+    private static final String RECENT_BY_PRODUCT_PATTERN_PATH = "http://dummyEndpoint/api/purchases/by_product/{0}";
 
     private static final ExecutorService EXECUTOR = Executors.newFixedThreadPool(10);
 
