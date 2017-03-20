@@ -1,0 +1,80 @@
+{
+  "name": "laurentiud/api-sample",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Williamsburg",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/LightBannerHeader",
+      "article": "article/ReaderArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Montserrat, sans-serif",
+    "heading": {
+      "fontWeight": 600,
+      "letterSpacing": "0.1em"
+    },
+    "colors": {
+      "text": "#346",
+      "background": "#fff",
+      "primary": "#0099e0",
+      "secondary": "#ab61ff",
+      "highlight": "#f7b",
+      "muted": "#fffab3",
+      "border": "#ccd"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/laurentiud/api-sample",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "api-sample",
+      "subhead": "Sample project with Spring APIs, caching, JUnit, Lambda and Streams",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "api-sample: Sample project with Spring APIs, caching, JUnit, Lambda and Streams",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "laurentiud",
+          "repo": "api-sample"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<p>The list of all existing users is taken from a mock api defined at MockBin.\ncurl <a href=\"http://www.mockbin.org/bin/5a6e8a7b-0cfe-46f7-a733-c29ad0489e14\">http://www.mockbin.org/bin/5a6e8a7b-0cfe-46f7-a733-c29ad0489e14</a></p>\n<p>All other data structures can be found here: <a href=\"https://github.com/x-team/daw-purchases\">https://github.com/x-team/daw-purchases</a></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/laurentiud/api-sample",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/laurentiud",
+          "text": "laurentiud"
+        }
+      ]
+    }
+  ]
+}
